@@ -64,14 +64,14 @@ requirements_all = requirements_openidconnect + \
 tests_requirements = tests_requirements + requirements_all
 
 setup(
-    name='social-auth-core',
+    name='social-auth-core2',
     version=read_version(),
-    author='Matias Aguirre',
-    author_email='matiasaguirre@gmail.com',
-    description='Python social authentication made simple.',
+    author='Dong Kai',
+    author_email='dongkai1993@gmail.com',
+    description='Python social authentication made simple. Add baidu Oauth',
     license='BSD',
     keywords='openid, oauth, saml, social auth',
-    url='https://github.com/python-social-auth/social-core',
+    url='https://github.com/dongkai1993/social-core',
     packages=[
         'social_core',
         'social_core.backends',
