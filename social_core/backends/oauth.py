@@ -349,7 +349,7 @@ class BaseOAuth2(OAuthAuth):
             'code': self.data.get('code', ''),  # server response code
             'client_id': client_id,
             'client_secret': client_secret,
-            'redirect_uri': self.get_redirect_uri(state)
+            'redirect_uri': self.data.get('redirect_uri', '')
         }
 
     def auth_complete_credentials(self):
